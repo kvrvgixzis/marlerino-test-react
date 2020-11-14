@@ -1,5 +1,5 @@
 import { useSelector } from 'react-redux';
-import './Alert.css';
+import './Alert.scss';
 
 export const Alert = () => {
   const message = useSelector((state) => state.app.alert);
