@@ -1,5 +1,7 @@
 # Тестовое задание от компании Marlerino Group
 
+## [Открыть](https://kvrvgixzis.github.io/marlerino-test-react/)
+
 ## Ссылки
 
 * [Текст задания](https://www.notion.so/Frontend-e9ede5aca707411a9d5d1c8db7e7f5e4)

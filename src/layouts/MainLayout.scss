@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+
+  background: #ebebea;
+
+  padding: 32px;
+
+  &__right {
+    width: 100%;
+  }
+}
+
+.main {
+  padding: 52px;
+}

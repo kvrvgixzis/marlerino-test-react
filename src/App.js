@@ -1,18 +1,20 @@
-import { Alert } from './components/Alert/Alert';
-import { Text, TranslationsProvider } from '@eo-locale/react';
-import { useSelector } from 'react-redux';
-import { locales } from './locales';
+import { MainLayout } from './layouts/MainLayout';
+import { Switch, Route } from 'react-router-dom';
+import { Applications } from './pages/Applications';
+import { Offers } from './pages/Offers';
 
 const App = () => {
-  const locale = useSelector((state) => state.app.locale);
-
   return (
-    <TranslationsProvider language={locale} locales={locales}>
-      <Alert />
-      <h1>
-        <Text id="app.hello" name="React" />
-      </h1>
-    </TranslationsProvider>
+    <MainLayout>
+      <Switch>
+        <Route path="/offers">
+          <Offers />
+        </Route>
+        <Route path={['/', '/applications']}>
+          <Applications />
+        </Route>
+      </Switch>
+    </MainLayout>
   );
 };
 

@@ -1,4 +1,10 @@
-import { HIDE_ALERT, HIDE_LOADER, SHOW_ALERT, SHOW_LOADER } from '../types';
+import {
+  CHANGE_LOCALE,
+  HIDE_ALERT,
+  HIDE_LOADER,
+  SHOW_ALERT,
+  SHOW_LOADER,
+} from '../types';
 
 export const showLoader = () => ({ type: SHOW_LOADER });
 
@@ -12,3 +18,8 @@ export const showAlert = (alert) => (dispatch) => {
 };
 
 export const hideAlert = () => ({ type: HIDE_ALERT });
+
+export const changeLocale = (locale) => ({
+  type: CHANGE_LOCALE,
+  payload: locale,
+});

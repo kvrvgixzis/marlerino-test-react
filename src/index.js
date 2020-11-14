@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import App from './App';
 import { store } from './redux/store';
 
-import './index.css';
+import './index.scss';
 import { fetchNetworks, fetchOffers } from './redux/actions/offers';
 import { fetchApplications } from './redux/actions/applications';
 

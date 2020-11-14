@@ -5,6 +5,10 @@ export const locales = [
       app: {
         hello: 'Hello {name}! Welcome!',
       },
+      nav: {
+        apps: 'Apps',
+        offers: 'Offers',
+      },
     },
   },
   {
@@ -12,6 +16,10 @@ export const locales = [
     messages: {
       app: {
         hello: 'Привет {name}! Добро пожаловать!',
+      },
+      nav: {
+        apps: 'Приложения',
+        offers: 'Предложения',
       },
     },
   },
