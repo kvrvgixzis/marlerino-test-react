@@ -17,7 +17,7 @@ const initialState = {
 export const app = (state = initialState, action) => {
   switch (action.type) {
     case TOGGLE_THEME:
-      return { ...state, theme: action.payload };
+      return { ...state, theme: state.theme === 'light' ? 'dark' : 'light' };
     case CHANGE_LOCALE:
       return { ...state, locale: action.payload };
     case SHOW_ALERT:

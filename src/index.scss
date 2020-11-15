@@ -1,11 +1,14 @@
 @import "reset";
+@import "color-palette";
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
   font-family: "Inter", sans-serif !important;
+  color: var(--text);
 }
 
 body {
+  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

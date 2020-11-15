@@ -3,15 +3,42 @@
   width: 100vw;
   height: 100vh;
 
-  background: #ebebea;
+  //   background: #ebebea;
+  background: var(--bg);
 
   padding: 32px;
 
   &__right {
     width: 100%;
+
+    .main {
+      padding: 52px;
+    }
   }
 }
 
-.main {
-  padding: 52px;
+.bg-green-circle-1 {
+  position: absolute;
+  width: 472px;
+  height: 472px;
+  left: -8px;
+  top: 560px;
+
+  border-radius: 100%;
+
+  background: #91f466;
+  opacity: 0.5;
+}
+
+.bg-green-circle-2 {
+  position: absolute;
+  width: 720px;
+  height: 720px;
+  top: 312px;
+  right: -472px;
+
+  border-radius: 100%;
+
+  background: #91f466;
+  opacity: 0.9;
 }

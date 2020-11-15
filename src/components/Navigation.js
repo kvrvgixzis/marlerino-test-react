@@ -1,17 +1,16 @@
 import { Text } from '@eo-locale/react';
+import { useSelector } from 'react-redux';
 import { Link, useLocation } from 'react-router-dom';
+import { colors } from '../assets/colors';
 import { ReactComponent as Logo } from '../assets/img/logo.svg';
+import { ReactComponent as LogoDark } from '../assets/img/logoDark.svg';
 import './Navigation.scss';
 
-const COLORS = {
-  icon: {
-    active: '#55EF14',
-    inactive: '#1D1D1D',
-  },
-};
-
 const OffersIcon = ({ isActive }) => {
-  const fillColor = isActive ? COLORS.icon.active : COLORS.icon.inactive;
+  const theme = useSelector((state) => state.app.theme);
+  const fillColor = isActive
+    ? colors[theme].navIcon.active
+    : colors[theme].navIcon.inactive;
   return (
     <svg width="16" height="16" viewBox="0 0 19 19" fill="none">
       <path
@@ -23,7 +22,10 @@ const OffersIcon = ({ isActive }) => {
 };
 
 const AppsIcon = ({ isActive }) => {
-  const fillColor = isActive ? COLORS.icon.active : COLORS.icon.inactive;
+  const theme = useSelector((state) => state.app.theme);
+  const fillColor = isActive
+    ? colors[theme].navIcon.active
+    : colors[theme].navIcon.inactive;
   return (
     <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
       <path
@@ -66,32 +68,46 @@ const AppsIcon = ({ isActive }) => {
   );
 };
 
-export const Navigation = () => {
+export const NavLink = ({ path, paths, textId, Icon }) => {
   const location = useLocation();
+  const isActive = paths.includes(location.pathname);
+  const navStyle = `nav__link ${isActive ? 'nav__link--active' : ''}`;
 
-  const getClassName = (paths) => {
-    return `nav__link ${isActive(paths) ? 'nav__link--active' : ''}`;
-  };
+  return (
+    <Link className={navStyle} to={path}>
+      <Icon isActive={isActive} />
+      <Text id={textId} />
+    </Link>
+  );
+};
 
-  const isActive = (paths) => paths.includes(location.pathname);
+export const Navigation = () => {
+  const theme = useSelector((state) => state.app.theme);
+
+  const links = [
+    {
+      path: '/applications',
+      paths: ['/applications', '/', '/marlerino-test-react/'],
+      Icon: AppsIcon,
+      textId: 'nav.apps',
+    },
+    {
+      path: '/offers',
+      paths: ['/offers'],
+      Icon: OffersIcon,
+      textId: 'nav.offers',
+    },
+  ];
 
   return (
     <>
       <nav className="nav">
         <div className="nav__logo">
-          <Logo />
+          {theme === 'light' ? <Logo /> : <LogoDark />}
         </div>
-        <Link
-          className={getClassName(['/applications', '/'])}
-          to="/applications"
-        >
-          <AppsIcon isActive={isActive(['/applications', '/'])} />
-          <Text id="nav.apps" />
-        </Link>
-        <Link className={getClassName(['/offers'])} to="/offers">
-          <OffersIcon isActive={isActive(['/offers'])} />
-          <Text id="nav.offers" />
-        </Link>
+        {links.map((props) => (
+          <NavLink key={props.path} {...props} />
+        ))}
       </nav>
     </>
   );
