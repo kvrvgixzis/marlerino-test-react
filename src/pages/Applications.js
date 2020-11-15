@@ -5,7 +5,7 @@ import { FaSearch } from 'react-icons/fa';
 
 import { AppCard } from '../components/AppCard';
 
-import Slider, { Range } from 'rc-slider';
+import { Range } from 'rc-slider';
 import 'rc-slider/assets/index.css';
 
 import './Applications.scss';
