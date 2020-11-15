@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/marlerino-test-react/static/css/main.63272ce5.chunk.css",
-    "main.js": "/marlerino-test-react/static/js/main.4f4e8d6d.chunk.js",
-    "main.js.map": "/marlerino-test-react/static/js/main.4f4e8d6d.chunk.js.map",
+    "main.css": "/marlerino-test-react/static/css/main.e8f7fecc.chunk.css",
+    "main.js": "/marlerino-test-react/static/js/main.b1ebfcbc.chunk.js",
+    "main.js.map": "/marlerino-test-react/static/js/main.b1ebfcbc.chunk.js.map",
     "runtime-main.js": "/marlerino-test-react/static/js/runtime-main.51be81c1.js",
     "runtime-main.js.map": "/marlerino-test-react/static/js/runtime-main.51be81c1.js.map",
-    "static/js/2.edb87968.chunk.js": "/marlerino-test-react/static/js/2.edb87968.chunk.js",
-    "static/js/2.edb87968.chunk.js.map": "/marlerino-test-react/static/js/2.edb87968.chunk.js.map",
+    "static/css/2.7fe95f8e.chunk.css": "/marlerino-test-react/static/css/2.7fe95f8e.chunk.css",
+    "static/js/2.98a3cc22.chunk.js": "/marlerino-test-react/static/js/2.98a3cc22.chunk.js",
+    "static/js/2.98a3cc22.chunk.js.map": "/marlerino-test-react/static/js/2.98a3cc22.chunk.js.map",
     "index.html": "/marlerino-test-react/index.html",
-    "static/css/main.63272ce5.chunk.css.map": "/marlerino-test-react/static/css/main.63272ce5.chunk.css.map",
-    "static/js/2.edb87968.chunk.js.LICENSE.txt": "/marlerino-test-react/static/js/2.edb87968.chunk.js.LICENSE.txt",
+    "static/css/2.7fe95f8e.chunk.css.map": "/marlerino-test-react/static/css/2.7fe95f8e.chunk.css.map",
+    "static/css/main.e8f7fecc.chunk.css.map": "/marlerino-test-react/static/css/main.e8f7fecc.chunk.css.map",
+    "static/js/2.98a3cc22.chunk.js.LICENSE.txt": "/marlerino-test-react/static/js/2.98a3cc22.chunk.js.LICENSE.txt",
     "static/media/Apple.9d3ba82c.svg": "/marlerino-test-react/static/media/Apple.9d3ba82c.svg",
     "static/media/Google.a31f6611.svg": "/marlerino-test-react/static/media/Google.a31f6611.svg",
     "static/media/darkTheme.f1a4c4eb.svg": "/marlerino-test-react/static/media/darkTheme.f1a4c4eb.svg",
@@ -22,8 +24,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.51be81c1.js",
-    "static/js/2.edb87968.chunk.js",
-    "static/css/main.63272ce5.chunk.css",
-    "static/js/main.4f4e8d6d.chunk.js"
+    "static/css/2.7fe95f8e.chunk.css",
+    "static/js/2.98a3cc22.chunk.js",
+    "static/css/main.e8f7fecc.chunk.css",
+    "static/js/main.b1ebfcbc.chunk.js"
   ]
 }
