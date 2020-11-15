@@ -12,7 +12,7 @@ const LinkToStore = ({ platform }) => {
     return (
       <>
         <div>
-          Watch at <a href="">Google Play</a>
+          Watch at <a href="/">Google Play</a>
         </div>
         <Google />
       </>
@@ -23,7 +23,7 @@ const LinkToStore = ({ platform }) => {
     return (
       <>
         <div>
-          Watch at <a href="">Apple Store</a>
+          Watch at <a href="/">Apple Store</a>
         </div>
         <Apple />
       </>
