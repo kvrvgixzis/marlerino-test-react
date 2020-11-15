@@ -1,6 +1,6 @@
-export const apiGetJson = async (url, options = {}) => {
+export const apiGetJson = async (url) => {
   try {
-    const response = await fetch(url, options);
+    const response = await fetch(url);
     if (!response.ok) return;
     const json = await response.json();
     return json;

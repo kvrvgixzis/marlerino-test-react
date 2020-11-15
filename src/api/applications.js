@@ -1,23 +1,12 @@
 import { apiGetJson } from './getJson';
+import { __DEV__ } from '../utils/dev';
 
-const getRndItem = (array) => {
-  return array[Math.floor(Math.random() * array.length)];
-};
+const API_URL = __DEV__
+  ? 'http://0.0.0.0:3004'
+  : 'https://my-json-server.typicode.com/kvrvgixzis/marlerino-test-react';
 
-const platforms = ['Apple', 'Google'];
-
-const API_URL =
-  'http://ws75.aptoide.com/api/7/apps/search?query=%22Halloween%22';
+const API_APPS_URL = `${API_URL}/apps`;
 
 export const apiGetApplications = async () => {
-  const apps = await apiGetJson(API_URL);
-  const mockApps = apps?.datalist?.list.map((app) => {
-    return {
-      id: app.id,
-      name: app.name,
-      icon: app.icon,
-      platform: getRndItem(platforms),
-    };
-  });
-  return mockApps;
+  return await apiGetJson(API_APPS_URL);
 };
