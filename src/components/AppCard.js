@@ -6,8 +6,6 @@ import screen3 from '../assets/img/screenshot-3.jpg';
 
 import { ReactComponent as Apple } from '../assets/img/Apple.svg';
 import { ReactComponent as Google } from '../assets/img/Google.svg';
-import { ReactComponent as AppleDark } from '../assets/img/AppleDark.svg';
-import { ReactComponent as GoogleDark } from '../assets/img/GoogleDark.svg';
 
 const LinkToStore = ({ platform }) => {
   console.log('platform: ', platform);
