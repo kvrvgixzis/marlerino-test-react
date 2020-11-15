@@ -16,9 +16,9 @@ export const MainLayout = ({ children }) => {
   return (
     <TranslationsProvider language={locale} locales={locales}>
       <Alert />
+      <div className="bg-green-circle-1" />
+      <div className="bg-green-circle-2" />
       <div className="container">
-        <div className="bg-green-circle-1" />
-        <div className="bg-green-circle-2" />
         <Navigation />
         <div className="container__right">
           <Header />

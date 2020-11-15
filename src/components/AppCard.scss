@@ -1,0 +1,47 @@
+.app {
+  display: block;
+  width: 280px;
+  height: 456px;
+
+  border-radius: 16px;
+
+  background: var(--card-bg);
+  backdrop-filter: blur(20px);
+
+  padding: 16px;
+
+  div {
+    margin-bottom: 16px;
+  }
+
+  &__header {
+    display: flex;
+  }
+
+  &__view-in-store {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    div {
+      margin-bottom: 0;
+    }
+  }
+
+  &__icon {
+    width: 88px;
+    margin-right: 16px;
+    filter: drop-shadow(0px 2px 4px rgba(40, 41, 61, 0.04)),
+      drop-shadow(0px 8px 16px rgba(96, 97, 112, 0.16));
+    border-radius: 8px;
+  }
+
+  &__screenshots {
+    overflow: hidden;
+    display: flex;
+  }
+
+  &__screenshot {
+    margin-right: 8px;
+  }
+}

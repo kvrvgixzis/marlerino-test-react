@@ -12,12 +12,14 @@
     width: 100%;
 
     .main {
+      position: relative;
       padding: 52px;
     }
   }
 }
 
 .bg-green-circle-1 {
+  z-index: 0;
   position: absolute;
   width: 472px;
   height: 472px;
@@ -31,6 +33,7 @@
 }
 
 .bg-green-circle-2 {
+  z-index: 0;
   position: absolute;
   width: 720px;
   height: 720px;

@@ -68,7 +68,7 @@ const AppsIcon = ({ isActive }) => {
   );
 };
 
-export const NavLink = ({ path, paths, textId, Icon }) => {
+const NavLink = ({ path, paths, textId, Icon }) => {
   const location = useLocation();
   const isActive = paths.includes(location.pathname);
   const navStyle = `nav__link ${isActive ? 'nav__link--active' : ''}`;
