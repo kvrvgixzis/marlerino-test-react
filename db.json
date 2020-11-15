@@ -203,20 +203,6 @@
       "postback_url": "http://gambling.com/oFv13vdI0LEuJb8",
       "offer_url_template": "{offer_url}?clickid={clickid}",
       "date": "2020-02-28 11:44"
-    },
-    {
-      "id": 6,
-      "name": "Network",
-      "postback_url": "http://gambling.com/oFv13vdI0LEuJb8",
-      "offer_url_template": "{offer_url}?clickid={clickid}",
-      "date": "2020-02-28 11:44"
-    },
-    {
-      "id": 7,
-      "name": "Network",
-      "postback_url": "http://gambling.com/oFv13vdI0LEuJb8",
-      "offer_url_template": "{offer_url}?clickid={clickid}",
-      "date": "2020-02-28 11:44"
     }
   ],
   "apps": [
@@ -224,127 +210,151 @@
       "id": 27047023,
       "name": "Halloween",
       "icon": "http://pool.img.aptoide.com/aldo-olvera-perez/287c02778ff83bdf7cacc1ee19114065_icon.png",
-      "platform": "Google"
+      "platform": "Android",
+      "price": 15,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Google only"
     },
     {
       "id": 47638679,
       "name": "Halloween",
       "icon": "http://pool.img.aptoide.com/catappult/04f229b1870f8c36972455924aacb18e_icon.png",
-      "platform": "Apple"
+      "platform": "iOS",
+      "price": 20,
+      "cabinets_over": true,
+      "in_rent": false,
+      "type": "Deeplink"
     },
     {
       "id": 49578135,
       "name": "Halloween",
       "icon": "http://pool.img.aptoide.com/catappult/3a961daa4da25fd6611a62dc7326ecff.png",
-      "platform": "Apple"
-    },
-    {
-      "id": 51172574,
-      "name": "Clean Master (Speed Booster)",
-      "icon": "http://pool.img.aptoide.com/catappult/809439774ede666cb977cb08f58fb097_icon.png",
-      "platform": "Apple"
+      "platform": "iOS",
+      "price": 25,
+      "cabinets_over": false,
+      "in_rent": true,
+      "type": "Google only"
     },
     {
       "id": 52110589,
       "name": "Halloween Games",
       "icon": "http://pool.img.aptoide.com/catappult/4ed1ec79b29137055b24ca967217fd40_icon.png",
-      "platform": "Apple"
+      "platform": "iOS",
+      "price": 11,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Google only"
     },
     {
       "id": 40954179,
       "name": "Halloween Town Racing",
       "icon": "http://pool.img.aptoide.com/vivo-api/ba990205aca17e5f40e00b61da694d94_icon.png",
-      "platform": "Apple"
+      "platform": "iOS",
+      "price": 15,
+      "cabinets_over": false,
+      "in_rent": true,
+      "type": "Deeplink"
     },
     {
       "id": 47576285,
       "name": "Spooky Halloween",
       "icon": "http://pool.img.aptoide.com/catappult/d19017232b9daa92590b4fe163259c93_icon.png",
-      "platform": "Apple"
-    },
-    {
-      "id": 48857778,
-      "name": "Redraw Keyboard Emoji & Themes",
-      "icon": "http://pool.img.aptoide.com/catappult/058a14905103903734da19f5319df204_icon.png",
-      "platform": "Apple"
+      "platform": "iOS",
+      "price": 10,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Google only"
     },
     {
       "id": 49577972,
       "name": "Halloween Costumes",
       "icon": "http://pool.img.aptoide.com/catappult/c884024d735670e20ae637fbc8efb3c7_icon.png",
-      "platform": "Google"
-    },
-    {
-      "id": 48368206,
-      "name": "Halloween Wallpaper",
-      "icon": "http://pool.img.aptoide.com/catappult/f6460f46dc8c54563d0d6e99f8b3f5ba_icon.png",
-      "platform": "Apple"
+      "platform": "Android",
+      "price": 15,
+      "cabinets_over": true,
+      "in_rent": false,
+      "type": "Deeplink"
     },
     {
       "id": 49577976,
       "name": "Halloween Makeup",
       "icon": "http://pool.img.aptoide.com/catappult/ab0766bb662bc0c71ab7836f56725446_icon.png",
-      "platform": "Apple"
+      "platform": "iOS",
+      "price": 8,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Google only"
     },
     {
       "id": 48213728,
       "name": "🥇 iOS 14 Icon Pack Pro & Free Icon Pack 2019",
       "icon": "http://pool.img.aptoide.com/catappult/12ede8844ff79deb63faedbe287e8c53_icon.png",
-      "platform": "Google"
+      "platform": "Android",
+      "price": 16,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Deeplink"
     },
     {
       "id": 46219616,
       "name": "Halloween Mania",
       "icon": "http://pool.img.aptoide.com/catappult/92916868ff8694db311cfd500ec4ce7b_icon.png",
-      "platform": "Google"
+      "platform": "Android",
+      "price": 15,
+      "cabinets_over": true,
+      "in_rent": false,
+      "type": "Google only"
     },
     {
       "id": 47203156,
       "name": "Halloween Crush",
       "icon": "http://pool.img.aptoide.com/catappult/7a406d996a32059484552c9101a6b1dc_icon.png",
-      "platform": "Google"
+      "platform": "Android",
+      "price": 15,
+      "cabinets_over": true,
+      "in_rent": false,
+      "type": "Deeplink"
     },
     {
       "id": 50923351,
       "name": "Halloween Challenge",
       "icon": "http://pool.img.aptoide.com/catappult/0b26c4e12f98ac83982547c754a36090_icon.png",
-      "platform": "Google"
+      "platform": "Android",
+      "price": 15,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Google only"
     },
     {
       "id": 50072810,
       "name": "Halloween Frames",
       "icon": "http://pool.img.aptoide.com/catappult/c43cbc61d3cc93a6f1b18387da6f4069.png",
-      "platform": "Google"
-    },
-    {
-      "id": 39087095,
-      "name": "Launcher Halloween",
-      "icon": "http://pool.img.aptoide.com/ammaralali/2e38dc06e5b5043302e5a3090381e134_icon.jpg",
-      "platform": "Google"
+      "platform": "Android",
+      "price": 15,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Deeplink"
     },
     {
       "id": 8497567,
       "name": "Halloween Frames",
       "icon": "http://pool.img.aptoide.com/mikey2905/7f4902a323ecbb9644e155d8929e3994_icon.png",
-      "platform": "Google"
+      "platform": "Android",
+      "price": 15,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Deeplink"
     },
     {
       "id": 53344054,
       "name": "Halloween Dentist",
       "icon": "http://pool.img.aptoide.com/catappult/ca3ab0dc43717495fffe3930356ba1b2_icon.png",
-      "platform": "Apple"
-    },
-    {
-      "id": 52277608,
-      "name": "Halloween Radio",
-      "icon": "http://pool.img.aptoide.com/catappult/0e8d204198034cd8876ca79c2ca7f677_icon.png",
-      "platform": "Google"
-    },
-    {
-      "id": 47165109,
-      "name": "Halloween Wallpapers",
-      "icon": "http://pool.img.aptoide.com/catappult/ea8a32dc90efbc06da1aad2820e720a1_icon.jpg",
-      "platform": "Apple"
+      "platform": "iOS",
+      "price": 15,
+      "cabinets_over": false,
+      "in_rent": false,
+      "type": "Deeplink"
     }
   ]
 }

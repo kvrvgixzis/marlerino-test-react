@@ -1,34 +1,66 @@
 import './AppCard.scss';
 
+import { Text } from '@eo-locale/react';
+
 import screen1 from '../assets/img/screenshot-1.jpg';
 import screen2 from '../assets/img/screenshot-2.jpg';
 import screen3 from '../assets/img/screenshot-3.jpg';
 
+import { showAlert } from '../redux/actions/app';
+
 import { ReactComponent as Apple } from '../assets/img/Apple.svg';
 import { ReactComponent as Google } from '../assets/img/Google.svg';
+import { useDispatch } from 'react-redux';
 
 const LinkToStore = ({ platform }) => {
-  if (platform === 'Google') {
+  if (platform === 'Android') {
     return (
       <>
         <div>
-          Watch at <a href="/">Google Play</a>
+          <Text id="app.openInStore" /> <a href="/">Google Play</a>
         </div>
         <Google />
       </>
     );
   }
 
-  if (platform === 'Apple') {
+  if (platform === 'iOS') {
     return (
       <>
         <div>
-          Watch at <a href="/">Apple Store</a>
+          <Text id="app.openInStore" /> <a href="/">Apple Store</a>
         </div>
         <Apple />
       </>
     );
   }
+};
+
+const AppRentBar = ({ app }) => {
+  const dispatch = useDispatch();
+
+  const handleRentBtn = () => {
+    dispatch(showAlert('TBD'));
+  };
+
+  if (app.cabinets_over) {
+    return <div className="app__cabinets-over">All cabinets are over</div>;
+  }
+
+  if (app.in_rent) {
+    return (
+      <div className="app__in-rent">
+        <strong>In rent (personal & team)</strong>
+        <span>${app.price} per user</span>
+      </div>
+    );
+  }
+
+  return (
+    <button onClick={handleRentBtn} className="app__rent-btn">
+      Rent for ${app.price} per user
+    </button>
+  );
 };
 
 export const AppCard = ({ app }) => {
@@ -46,7 +78,7 @@ export const AppCard = ({ app }) => {
         <img src={screen2} alt="" className="app__screenshot" />
         <img src={screen3} alt="" className="app__screenshot" />
       </div>
-      <div className="app__rent">In rent (personal & team) $0.25 per user</div>
+      <AppRentBar app={app} />
     </section>
   );
 };

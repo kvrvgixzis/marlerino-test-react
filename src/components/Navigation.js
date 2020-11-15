@@ -87,7 +87,12 @@ export const Navigation = () => {
   const links = [
     {
       path: '/applications',
-      paths: ['/applications', '/', '/marlerino-test-react/'],
+      paths: [
+        '/marlerino-test-react/',
+        '/marlerino-test-react',
+        '/applications',
+        '/',
+      ],
       Icon: AppsIcon,
       textId: 'nav.apps',
     },

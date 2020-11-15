@@ -9,19 +9,18 @@
   backdrop-filter: blur(20px);
 
   padding: 16px;
-
-  div {
-    margin-bottom: 16px;
-  }
+  padding-bottom: 0;
 
   &__header {
     display: flex;
+    margin-bottom: 24px !important;
   }
 
   &__view-in-store {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 16px;
 
     div {
       margin-bottom: 0;
@@ -39,9 +38,55 @@
   &__screenshots {
     overflow: hidden;
     display: flex;
+    margin-bottom: 24px;
   }
 
   &__screenshot {
     margin-right: 8px;
+  }
+
+  &__rent-btn {
+    font-size: 12px;
+
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    font-weight: 600;
+
+    box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04),
+      0px 8px 16px rgba(96, 97, 112, 0.16);
+    border-radius: 8px;
+
+    cursor: pointer;
+  }
+
+  &__cabinets-over {
+    font-size: 12px;
+
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+
+    font-weight: 600;
+
+    background: var(--inactive-btn-bg);
+    color: var(--inactive-btn-text);
+    border-radius: 8px;
+  }
+
+  &__in-rent {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding: 2px;
+    text-align: center;
+    font-weight: 500;
+
+    color: var(--inactive-btn-text);
+    * {
+      display: block;
+    }
   }
 }

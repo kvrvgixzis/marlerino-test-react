@@ -2,8 +2,11 @@ export const locales = [
   {
     language: 'en',
     messages: {
+      apps: {
+        placeholder: 'Oops ¯_(ツ)_/¯',
+      },
       app: {
-        hello: 'Hello {name}! Welcome!',
+        openInStore: 'Watch at',
       },
       nav: {
         apps: 'Apps',
@@ -14,8 +17,11 @@ export const locales = [
   {
     language: 'ru',
     messages: {
+      apps: {
+        placeholder: 'Не найдено ¯_(ツ)_/¯',
+      },
       app: {
-        hello: 'Привет {name}! Добро пожаловать!',
+        openInStore: 'Открыть в',
       },
       nav: {
         apps: 'Приложения',
