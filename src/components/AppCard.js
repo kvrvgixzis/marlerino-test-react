@@ -8,7 +8,6 @@ import { ReactComponent as Apple } from '../assets/img/Apple.svg';
 import { ReactComponent as Google } from '../assets/img/Google.svg';
 
 const LinkToStore = ({ platform }) => {
-  console.log('platform: ', platform);
   if (platform === 'Google') {
     return (
       <>
