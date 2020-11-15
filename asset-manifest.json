@@ -1,24 +1,29 @@
 {
   "files": {
-    "main.css": "/marlerino-test-react/static/css/main.9af0aa02.chunk.css",
-    "main.js": "/marlerino-test-react/static/js/main.da165eaf.chunk.js",
-    "main.js.map": "/marlerino-test-react/static/js/main.da165eaf.chunk.js.map",
+    "main.css": "/marlerino-test-react/static/css/main.63272ce5.chunk.css",
+    "main.js": "/marlerino-test-react/static/js/main.4f4e8d6d.chunk.js",
+    "main.js.map": "/marlerino-test-react/static/js/main.4f4e8d6d.chunk.js.map",
     "runtime-main.js": "/marlerino-test-react/static/js/runtime-main.51be81c1.js",
     "runtime-main.js.map": "/marlerino-test-react/static/js/runtime-main.51be81c1.js.map",
-    "static/js/2.c8c12e4d.chunk.js": "/marlerino-test-react/static/js/2.c8c12e4d.chunk.js",
-    "static/js/2.c8c12e4d.chunk.js.map": "/marlerino-test-react/static/js/2.c8c12e4d.chunk.js.map",
+    "static/js/2.edb87968.chunk.js": "/marlerino-test-react/static/js/2.edb87968.chunk.js",
+    "static/js/2.edb87968.chunk.js.map": "/marlerino-test-react/static/js/2.edb87968.chunk.js.map",
     "index.html": "/marlerino-test-react/index.html",
-    "static/css/main.9af0aa02.chunk.css.map": "/marlerino-test-react/static/css/main.9af0aa02.chunk.css.map",
-    "static/js/2.c8c12e4d.chunk.js.LICENSE.txt": "/marlerino-test-react/static/js/2.c8c12e4d.chunk.js.LICENSE.txt",
+    "static/css/main.63272ce5.chunk.css.map": "/marlerino-test-react/static/css/main.63272ce5.chunk.css.map",
+    "static/js/2.edb87968.chunk.js.LICENSE.txt": "/marlerino-test-react/static/js/2.edb87968.chunk.js.LICENSE.txt",
+    "static/media/Apple.9d3ba82c.svg": "/marlerino-test-react/static/media/Apple.9d3ba82c.svg",
+    "static/media/Google.a31f6611.svg": "/marlerino-test-react/static/media/Google.a31f6611.svg",
     "static/media/darkTheme.f1a4c4eb.svg": "/marlerino-test-react/static/media/darkTheme.f1a4c4eb.svg",
     "static/media/lightTheme.d3d3ac98.svg": "/marlerino-test-react/static/media/lightTheme.d3d3ac98.svg",
     "static/media/logo.06d745db.svg": "/marlerino-test-react/static/media/logo.06d745db.svg",
-    "static/media/logoDark.f72d2216.svg": "/marlerino-test-react/static/media/logoDark.f72d2216.svg"
+    "static/media/logoDark.f72d2216.svg": "/marlerino-test-react/static/media/logoDark.f72d2216.svg",
+    "static/media/screenshot-1.74b172de.jpg": "/marlerino-test-react/static/media/screenshot-1.74b172de.jpg",
+    "static/media/screenshot-2.5814fac1.jpg": "/marlerino-test-react/static/media/screenshot-2.5814fac1.jpg",
+    "static/media/screenshot-3.aef19181.jpg": "/marlerino-test-react/static/media/screenshot-3.aef19181.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.51be81c1.js",
-    "static/js/2.c8c12e4d.chunk.js",
-    "static/css/main.9af0aa02.chunk.css",
-    "static/js/main.da165eaf.chunk.js"
+    "static/js/2.edb87968.chunk.js",
+    "static/css/main.63272ce5.chunk.css",
+    "static/js/main.4f4e8d6d.chunk.js"
   ]
 }
