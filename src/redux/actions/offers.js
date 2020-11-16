@@ -30,6 +30,7 @@ export const fetchNetworks = () => {
 };
 
 export const createOffer = (offer) => ({ type: CREATE_OFFER, payload: offer });
+
 export const createNetwork = (network) => ({
   type: CREATE_NETWORK,
   payload: network,

@@ -19,7 +19,7 @@ export const offers = (state = initialState, action) => {
     case FETCH_NETWORKS:
       return { ...state, networks: action.payload };
     case CREATE_NETWORK:
-      return { ...state, networks: [action.payload, ...state.offers] };
+      return { ...state, networks: [action.payload, ...state.networks] };
     default:
       return state;
   }
