@@ -2,6 +2,19 @@
 
 ## [Открыть](https://kvrvgixzis.github.io/marlerino-test-react/)
 
+## Запуск
+
+```bash
+# install dependencies
+npm i
+
+# dev server
+npm start
+
+# mock db
+npm run db
+```
+
 ## Задачи
 
 - [x] Современный фреймворк
@@ -12,8 +25,8 @@
 - [x] Redux
 - [x] Экран приложений
 - [x] Фильтрация приложений
-- [ ] Экран заказов
-- [ ] Добавление заказов
+- [x] Экран заказов
+- [x] Добавление заказов
 
 ## Ссылки
 
@@ -23,12 +36,8 @@
 ## Инструменты
 
 * React
+* Saas
+* React-router
 * Redux
-* Aptoid Api
-
-## Запуск
-
-```bash
-npm i
-npm start
-```
+* Redux-thunk
+* Json-server
